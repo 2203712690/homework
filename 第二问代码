@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算机学科有用的资料！妈妈再也不用担心我挂科了。</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/课程资料索引页基本美化.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">课程名称索引</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="各个课程的资料网页/数据结构与算法资料.html" target="_blank">数据结构与算法 <span class="sr-only">(current)</span></a></li>
+                <li><a href="各个课程的资料网页/离散数学资料.html" target="_blank">离散数学</a></li>
+                <li><a href="各个课程的资料网页/计算机科学技术导论资料.html" target="_blank">计算机科学技术导论</a></li>
+                <li><a href="各个课程的资料网页/组合数学资料.html" target="_blank">组合数学</a></li>
+                <li><a href="各个课程的资料网页/模拟电子技术资料.html" target="_blank">模拟电子技术</a></li>
+                <li><a href="各个课程的资料网页/面向对象程序设计资料.html" target="_blank">面向对象程序设计</a></li>
+                <li><a href="各个课程的资料网页/算法分析与设计资料.html" target="_blank">算法分析与设计</a></li>
+                <li><a href="各个课程的资料网页/工科数学分析基础资料.html" target="_blank">工科数学分析基础</a></li>
+                <li><a href="各个课程的资料网页/计算机组成原理资料.html" target="_blank">计算机组成</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<span>　　</span>
+<span>计算机专业是目前非常热门的专业，受到许多家长与学生的青睐，也有越来越多的考生在高考志愿中愿意填报计算机专业。这种现象的出现，并不只是因为计算机专业在寻求工作时有更大的优势，能获得更多的利益，也因为计算机专业能提供非常有用的知识，这些知识在今后各个方面也许都有不错的发挥。虽然计算机专业表面的光鲜能吸引不少学生，但这个专业的知识难度也是非常地高，因此学生在学习的过程中<b>往往会遇到许多困难</b>，因此创作者在本页面提供了数据结构与算法、离散数学等九门计算机专业需要学习的课程相关资料，意在帮助初学者在遇到困难时有可以参考学习的地方，也希望使用者在学习完本页面提供的学习资料后能力会有所提升。</span>
+<span>本页面最上方有“课程名称索引”，后面跟有九门课程的名称，<b>点击相应课程名称即可跳转到对应页面。</b></span>
+</body>
+</html>
+
+css:
+body{
+    background-image: url("./网页背景/课程资料索引网页背景图.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+span{
+    font-family: 仿宋, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkviolet;
+}
+b{
+    text-decoration: underline;
+}

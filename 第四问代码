@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的学业规划</title>
+    <link rel="stylesheet" type="text/css" href="./css/学业规划网页基本美化.css">
+</head>
+<body>
+<h1>我的学业规划</h1>
+<p>本页面为我的学业规划。下面的表格为我本科期间的学业规划，其中大一的目标及规划都已经很好地完成了。大二期间主要用来补足自己的短处并进行基本的专业学习，大三就要开始注重综合能力及课外知识的拓展。到了大四，如果前面的目标完成顺利的话，那时应当已经保研了，我会积极地联系导师加入到他们的某些项目中锻炼自己，同时趁着大四时间充裕广泛地学习计算机专业其他知识，拓宽自己的知识面。如果没能保研，则我将专心准备考研，为进一步的深造做好准备。到了硕士研究生阶段，我将会对计算机的某个一方向进行深入研究，在这期间我应当对自己的专业知识达到烂熟于心的程度，并且能够培养出创新思维和批判性思维。硕士毕业之后，根据自己的能力，要么此后从事科研工作，为国家相关技术发展尽自己的绵薄之力；要么到企业里当一名优秀的工程师，兢兢业业地工作。在学生生涯结束之后我也不会放弃学习，我会时时刻刻学习当下的新知识，让自己的头脑和思维能够跟得上时代的步伐。</p>
+<table border="5" align="center">
+    <tr>
+        <td>时间</td>
+        <td>目标</td>
+        <td>规划</td>
+        <td>规划</td>
+    </tr>
+    <tr>
+        <td>大一</td>
+        <td>综合成绩大类前10%</td>
+        <td>积极参加课外活动</td>
+        <td>担任班干部</td>
+    </tr>
+    <tr>
+        <td>大二</td>
+        <td>综合成绩专业前15%</td>
+        <td>坚持学习英语</td>
+        <td>接触各类竞赛</td>
+    </tr>
+    <tr>
+        <td>大三</td>
+        <td>综合成绩专业前15名</td>
+        <td>在竞赛中取得成绩</td>
+        <td>接触计算机专业课外知识</td>
+    </tr>
+    <tr>
+        <td>大四</td>
+        <td>本科专业课水平达到精通</td>
+        <td>联系导师，加入科研项目</td>
+        <td>深入学习计算机专业课外知识</td>
+    </tr>
+</table>
+</body>
+</html>
+
+css:
+h1{
+    font-family: 华文新魏, serif;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    color: gold;
+}
+p{
+    text-indent: 2em;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 黑体, serif;
+    color: antiquewhite;
+}
+body{
+    background-image: url("./网页背景/学业规划网页背景图.gif");
+    background-size: cover;
+    background-repeat: repeat;
+}
+td{
+    font-family: 楷体, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: blanchedalmond;
+    text-align: center;
+}
